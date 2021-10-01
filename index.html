@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"  href="https://github.com/SeongJongHo/hello.git">
+    <title>hello</title> 
+    <style>
+   html{
+    scroll-behavior: smooth;
+   }
+      
+    </style>
+  </head>
+  <body>
+    
+    <header class="header"id="header">
+      <h1>hello world</h1>
+      <nav class="nav">
+        
+        <span><a href="#top" style="margin:10px;color: white;">PROFILE</a></span>
+        <span><a href="#mbti"style="margin:10px;color: white;">MBTI</a></span>
+        <span><a href="#favorite-bukit"style="margin:10px;color: white;">FAVORITE</a></span>
+       
+     
+      </nav>
+    </header>
+    <div id="top"style="border-style: solid;border-width: 2px;border-color: papayawhip;"></div> 
+    <h2>profile</h2>
+     <div class="profile-flex"> 
+      <div class="box" >
+        <img class="profile" src="jongho.jpeg">
+      </div>
+      <div style="font-size: 20px;">
+        <P style="margin-left: 10px;">  이름 : 성종호</P>
+        <P style="margin-left: 10px;">  나이 : 29세</P>
+        <P style="margin-left: 10px;">    HP : 010-3919-4898</P>
+        <P style="margin-left: 10px;">EMAIL : whdgh6565@naver.com</P>
+        <div id="icon-box">
+        <input type="image" src="instarg.png" id="icon"onClick="window.open('https://www.instagram.com/whdgh9595/')" >
+        <input type="image" src="velog.jpg" id="icon"onClick="window.open('https://velog.io/@whdgh9595')">
+        <input type="image" src="github.png" id="icon"onClick="window.open('https://github.com/SeongJongHo')">
+        
+        </div>
+      </div>  
+    </div>
+    
+   
+    <div id="mbti"style="border-style: solid;border-width: 2px;border-color: papayawhip;margin-top: 150px;margin-bottom: 100px;"></div>
+    <div class="section"id="mbti">
+    	<input type="radio" name="slide" id="slide01" checked>
+	<input type="radio" name="slide" id="slide02">
+	<input type="radio" name="slide" id="slide03">
+	<div class="slidewrap">
+		<ul class="slide-pagelist">
+      <!-- 페이징 -->
+			<li><label for="slide01"><P>MBTI</P></label></li>
+			<li><label for="slide02"><P>혈액형</P></label></li>
+			<li><label for="slide03"><P>종교</P></label></li>
+		</ul>
+		<ul class="slidelist">
+      
+			<!-- 슬라이드 영역 -->
+			<li class="slideitem">
+				
+			
+					<img id="profile-img"src="mbti.fpng.png">
+			
+			</li>
+			<li class="slideitem">
+				
+          
+					
+			<img id="profile-img"src="bloodtypeA.jpg">
+				
+			</li>
+			<li class="slideitem">
+				
+					<img id="profile-img"src="christian.jpg">
+				
+			</li class="slideitem">
+
+			<!-- 좌,우 슬라이드 버튼 -->
+			<div class="slide-control">
+				<div>
+					<label for="slide03" class="left"></label>
+					<label for="slide02" class="right"></label>
+				</div>
+				<div>
+					<label for="slide01" class="left"></label>
+					<label for="slide03" class="right"></label>
+				</div>
+				<div>
+					<label for="slide02" class="left"></label>
+					<label for="slide01" class="right"></label>
+				</div>
+			</div>
+
+		</ul>
+		
+		
+	</div>
+  <div id="favorite-bukit"style="border-style: solid;border-width: 2px;border-color: papayawhip;margin-top: 60px;"></div>
+	
+    </div>
+
+   
+  <div class="favorite-bukit">
+    
+    <div class="favorite-slider">
+      <h2>favorite</h2>
+    <ul>
+      <li><img class="faimg"src="camping.jpg"></li>
+      <li><img class="faimg"src="movie.jpg"></li>
+      <li><img class="faimg"src="sleep.jpg"></li>
+      <li><img class="faimg"src="game.jpg"></li>
+    </ul>
+    </div>
+    <div class="favorite-slider">
+      <h2>bukitlist</h2>
+      <ul>
+        <li><img class="faimg"src="geullaiding.jpg"></li>
+        <li><img class="faimg"src="world.jpg"></li>
+        <li><img class="faimg"src="carcamping.jpg"></li>
+        <li><img class="faimg"src="house.png"></li>
+      </ul>
+      </div>
+  </div>
+</div>
+        
+      
+  </body>
+  <footer class="footer" >
+    <div id="icon-box">
+      <input type="image" src="instarg.png" id="icon"onClick="window.open('https://www.instagram.com/whdgh9595/')" >
+      <input type="image" src="velog.jpg" id="icon"onClick="window.open('https://velog.io/@whdgh9595')">
+      <input type="image" src="github.png" id="icon"onClick="window.open('https://github.com/SeongJongHo')">
+      
+      </div>
+  </footer>
+</html>
